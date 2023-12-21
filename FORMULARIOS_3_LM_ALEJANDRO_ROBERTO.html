@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Ejercicio html para hacer url">
+    <meta name="author" content="Alejandro Roberto">
+    <title>FORMULARIOS</title>
+    <link rel="icon" type="image/jpg" href="PIXEL ART CHARMANDER.png">
+</head>
+<body>
+<nav>
+    <form>
+        <h1>RELLENA TU CV</h1>
+        <fieldset><legend>Datos Personales</legend>
+            <label for=”text”> Provincia </label>
+            <br>
+            <select id="prov" name="prov">
+                <option value="" selected="selected">-Selecciona-</option>
+                <option value="vlc" >Valencia</option>
+                <option value="ali" >Alicante</option>
+                <option value="cast" >Castellón</option>
+            </select>
+            <br>
+            <br>
+            <label for=”naci”> Fecha de Nacimiento </label>
+            <br>
+            <input pattern="text" name="dni"  id=”dni”  value="" size="2" maxlength=”2”/>
+            <label for=”naci”> de </label>
+            <select id="mes" name="mes">
+                <option value="ene" selected="selected" >Enero</option>
+                <option value="feb" >Febrero</option>
+                <option value="mar" >Marzo</option>
+                <option value="abr" >Abril</option>
+                <option value="may" >Mayo</option>
+                <option value="jun" >Junio</option>
+                <option value="jul" >Julio</option>
+                <option value="ago" >Agosto</option>
+                <option value="sep" >Septiembre</option>
+                <option value="oct" >Octubre</option>
+                <option value="nov" >Noviembre</option>
+                <option value="dic" >Diciembre</option>
+            </select>
+            <input pattern="text" name="año"  id=”año”  value="" size="4" maxlength=”4”/>
+            <br>
+            <br>
+            <label for=”interes”> Temas de Interes </label>
+            <br>
+            <select id="opciones" name="opciones" size="5">
+                <option value="" >Administración de base de Datos</option>
+                <option value="" >Analisis y programacion</option>
+                <option value="" >Arquitectura</option>
+                <option value="" >Calidad</option>
+                <option value="" >ERP,CRM</option>
+                <option value="" >Bussines Intelligence</option>
+            </select>
+        </fieldset>
+    </form>
+</nav>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Ejercicio html para hacer url">
+    <meta name="author" content="Alejandro Roberto">
+    <title>FORMULARIOS</title>
+    <link rel="icon" type="image/jpg" href="PIXEL ART CHARMANDER.png">
+</head>
+<body>
+<nav>
+    <form>
+        <fieldset><legend>Datos Basicos</legend>
+            <label for=”text”> Nombre </label>
+            <br>
+            <input pattern="text" name="nombre"  id=”nombre”  value="" size="25" maxlength=”25”/>
+            <br>
+            <br>
+            <label for="descripcion">Descripción</label> <br/>
+            <textarea id="descripcion" name="descripcion" cols="40" rows="5"></textarea>
+            <br>
+            <br>
+            <label for="foto">Foto</label>
+            <input type="file" name="foto"/>
+            <br>
+            <br>
+            <input type="checkbox">
+            <label for="contador">Añadir contador de visitas</label>
+        </fieldset>
+        <fieldset><legend>Datos economicos</legend>
+            <label for="precio">Precio</label>
+            <input type="number" name="precio"  id=”precio”  value="" size="4" maxlength=”4”/>
+            <label for="precio">€&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <label for="precio">Impuestos</label>
+            <select id="mpuestos" name="impuestos">
+                <option value="">4%</option>
+                <option value="">7%</option>
+                <option value="">16%</option>
+                <option value="">25%</option>
+            </select>
+            <br>
+            <br>
+            <label for="precio">Promoción</label> </br>
+            <input type="radio" name="Promoción" value="Ninguno" /> Ninguno </br>
+            <input type="radio" name="Promoción" value="Transporte gratuito" /> Transporte gratuito </br>
+            <input type="radio" name="Promoción" value="Descuento" /> Descuento 5%
+        </fieldset>
+    </form>
+</nav>
+</body>
+</html>        
